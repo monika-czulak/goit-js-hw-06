@@ -6,6 +6,7 @@ const boxesCollection = document.querySelector('#boxes')
 const createBtn = document.querySelector('button[data-create]')
 const destroyBtn = document.querySelector('button[data-destroy]')
 const amount = document.querySelector('input')
+const newBox = document.createElement('div')
 
 function createBoxes(amount) {
 	if (boxesCollection.innerHTML == '') {
